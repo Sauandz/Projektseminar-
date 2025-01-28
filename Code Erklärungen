@@ -1,14 +1,34 @@
-import folium
-Verwendung: Folium wird verwendet, um interaktive Karten zu erstellen und zu visualisieren. Es eignet sich hervorragend für die Darstellung geografischer Daten, z. B. das Anzeigen von Standorten oder Heatmaps.
-import pandas as pd
-Verwendung: Pandas ist eine leistungsstarke Bibliothek für Datenmanipulation und -analyse. Sie wird häufig verwendet, um tabellarische Daten (z. B. CSV-Dateien) zu laden, zu bearbeiten, zu filtern und zu analysieren.
-import matplotlib.pyplot as plt
-Verwendung: Matplotlib ist eine Plotting-Bibliothek, mit der Daten visualisiert werden können. Mit pyplot können verschiedene Diagramme wie Linien-, Balken- und Scatterplots erstellt werden.
-import matplotlib as plt
-Verwendung: Dies ist redundant, da der Alias hier mit plt gleichgesetzt wird, was mit dem vorherigen Import (pyplot) kollidieren könnte. Normalerweise wird matplotlib importiert, wenn man Einstellungen oder Backends der Bibliothek anpassen möchte.
-import seaborn as sns
-Verwendung: Seaborn ist eine Bibliothek, die auf Matplotlib aufbaut und ästhetisch ansprechendere Diagramme bietet. Es wird häufig für statistische Visualisierungen wie Heatmaps, Boxplots oder Pairplots verwendet.
-import time
-Verwendung: Die time-Bibliothek wird verwendet, um Zeitmessungen durchzuführen oder Verzögerungen einzuführen. Zum Beispiel kann sie genutzt werden, um Programme zeitlich zu steuern oder die Ausführungsdauer eines Prozesses zu messen.
-import numpy as np
-Verwendung: NumPy ist eine Bibliothek für numerische Berechnungen. Sie bietet Unterstützung für Arrays, Matrizen und mathematische Operationen, die auf großen Datenmengen effizient ausgeführt werden können.
+Dieses Projekt implementiert eine Anwendung zur Vorhersage der Stromnachfrage und -erzeugung mithilfe des maschinellen Lernmodells XGBoost. Es verwendet historische Daten, wie beispielsweise Stromverbrauch, prognostizierte Erzeugung und Sonnenscheindauer, um eine präzise Prognose zu erstellen.
+
+Features
+
+Datenbereinigung: Automatisierte Bereinigung und Transformation von historischen Energie- und Wetterdaten.
+
+Feature Engineering: Hinzufügung von zeitbasierten und saisonalen Features für bessere Modellgenauigkeit.
+
+Modelltraining: Einsatz von XGBoost für präzise Vorhersagen.
+
+Dynamische Prognosen: Vorhersagen für das Jahr 2023 basierend auf historischen Trends und saisonalen Anpassungen.
+
+Visualisierungen: Interaktive Diagramme und Zeitreihenplots für tiefere Einblicke in die Prognosen.
+
+Voraussetzungen
+
+Python 3.8 oder höher
+
+Installierte Bibliotheken (siehe requirements.txt):
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+scikit-learn
+
+xgboost
+
+streamlit
+
