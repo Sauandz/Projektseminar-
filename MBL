@@ -16,9 +16,11 @@ sns.set_theme(style="whitegrid", palette="deep")
 
 # Dummy-Datenpfade (ersetze sie mit deinen echten Pfaden)
 file_paths = {
-    "Prognostizierte_Stunde": "/Users/sauanmahmud/Desktop/Prognostizierte_Erzeugung_Day-Ahead_201701010000_202301010000_Stunde.csv",
-    "Realisierter_Stunde": "/Users/sauanmahmud/Desktop/Realisierter_Stromverbrauch_201701010000_202301010000_Stunde.csv",
-    "Sonnenscheindauer": "/Users/sauanmahmud/Desktop/Sonnenscheindauer_Deutschland_neu.csv"
+    "Prognostizierte_Stunde": "DATA/Prognostizierte_Erzeugung_Day-Ahead_201701010000_202301010000_Stunde.csv",
+    "Realisierter_Stunde": "DATA/Realisierter_Stromverbrauch_201701010000_202301010000_Stunde.csv",
+    "Sonnenscheindauer": "DATA/Sonnenscheindauer_Deutschland_neu.csv"
+}
+
 }
 
 # Funktion: Datenbereinigung und Feature Engineering
